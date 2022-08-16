@@ -1,5 +1,3 @@
-
-﻿// See https://aka.ms/new-console-template for more information
 /*Задача 19
 Напишите программу, которая принимает на вход пятизначное число и проверяет, является ли оно палиндромом.*/
 int num,r,sum=0, newValue;
@@ -14,7 +12,7 @@ int num,r,sum=0, newValue;
         else
               Console.Write("Число {0} Это не палиндром!.\n",newValue);
 
-﻿/* 21 Напишите программу, которая принимает на вход координаты двух точек и находит расстояние между ними в 3D пространстве.*/
+/* 21 Напишите программу, которая принимает на вход координаты двух точек и находит расстояние между ними в 3D пространстве.*/
 
 Console.WriteLine("\n Задача 21");
 int x1 = Coordinate("x", "A");
@@ -41,4 +39,17 @@ return Math.Sqrt(Math.Pow((x2-x1), 2) +
 double length =  Math.Round (Distance(x1, x2, y1, y2, z1, z2), 2 );
 Console.WriteLine($"Расстояние =  {length}");
 
+
+/*Задача 23
+Напишите программу, которая принимает на вход число (N) и выдаёт таблицу кубов чисел от 1 до N.
+*/
+
+Console.WriteLine("Введите число ");
+int number = int.Parse(Console.ReadLine());
+ //int i = 1;
+    for (int i = 1; i <= number; i++)
+    {
+        Console.WriteLine("Результат");
+        Console.WriteLine("{0}^3 = {1}", i, Math.Pow(i, 3));
+     }
 
