@@ -4,7 +4,6 @@
 
 Console.WriteLine("Введите число ");
 int number = int.Parse(Console.ReadLine());
- //int i = 1;
     for (int i = 1; i <= number; i++)
     {
         Console.WriteLine("Результат");
