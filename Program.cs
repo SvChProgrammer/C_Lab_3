@@ -41,16 +41,4 @@ double distance =  Math.Round (Distance(x1, x2, y1, y2, z1, z2), 2);
 Console.WriteLine($"Расстояние =  {distance}");
 
 
-/*Задача 23
-Напишите программу, которая принимает на вход число (N) и выдаёт таблицу кубов чисел от 1 до N.
-*/
-
-Console.WriteLine("Введите число ");
-int number = int.Parse(Console.ReadLine());
- //int i = 1;
-    for (int i = 1; i <= number; i++)
-    {
-        Console.WriteLine("Результат");
-        Console.WriteLine("{0}^3 = {1}", i, Math.Pow(i, 3));
-     }
 
